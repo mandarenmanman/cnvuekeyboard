@@ -13,7 +13,7 @@
 ## 安装
 
 ```bash
-npm install simple-keyboard cnchar cnchar-input cnchar-words cnchar-poly cnchar-idiom
+npm install simple-keyboard cnchar cnchar-input cnchar-words cnchar-poly cnchar-idiom```
 
 
 ## 安装
