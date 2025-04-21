@@ -17,6 +17,8 @@ npm install simple-keyboard cnchar cnchar-input cnchar-words cnchar-poly cnchar-
 
 
 ## 安装
+
+```bash
 <template>
   <cnvuekeyboard
     :input="input"
