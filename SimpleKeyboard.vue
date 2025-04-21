@@ -224,6 +224,9 @@ export default {
 
         updateCandidates(pinyinInput) {
 
+            console.log('updateCandidates:', pinyinInput);
+            console.log('this.spInput:', this.spInput.length);
+
             pinyinInput = pinyinInput.substring(this.spInput.length, pinyinInput.length);
             console.log('updateCandidates:', pinyinInput);
 
@@ -274,6 +277,9 @@ export default {
                 this.keyboard.clearInput();
                 this.candidates = [];
                 this.currentPage = 1;
+                this.spInput = '';
+                this.crInput = '';
+                this.$emit("onChange", '');
             }
         },
 
