@@ -13,8 +13,8 @@
 ## 安装
 
 ```bash
-npm install simple-keyboard cnchar cnchar-input cnchar-words cnchar-poly cnchar-idiom```
-
+npm install simple-keyboard cnchar cnchar-input cnchar-words cnchar-poly cnchar-idiom
+```
 
 ## 安装
 
@@ -38,3 +38,4 @@ function handleLangChange(lang) {
   // 语言切换回调
 }
 </script>
+```
